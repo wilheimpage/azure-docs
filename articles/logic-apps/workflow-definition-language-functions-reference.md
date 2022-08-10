@@ -1924,12 +1924,14 @@ These examples check whether the specified collections are empty:
 ```
 empty('')
 empty('abc')
+empty(null)
 ```
 
 And returns these results:
 
 * First example: Passes an empty string, so the function returns `true`.
 * Second example: Passes the string "abc", so the function returns `false`.
+* Third example: Parses null, so the function returns `true`.
 
 <a name="endswith"></a>
 
